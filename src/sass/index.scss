@@ -1,0 +1,43 @@
+// Variables and placeholders ⛔️ Do not change
+
+@import './utils/vars';
+@import './utils/placeholders';
+@import './utils/mixins';
+
+// Base styles ⛔️ Do not change
+@import './common';
+@import './base-styles';
+@import './buttons';
+
+// Web components
+
+// Maria part 💻
+@import './components/header';
+@import './components/hero';
+
+// Ivan part 💻
+@import './components/products';
+
+//  Andrii part 💻
+@import './components/about';
+@import './components/advantages';
+
+// Eugene part 💻
+@import './components/gallery';
+
+// Kostia part 💻
+@import './components/customer-review';
+
+// Serhii part 💻
+@import './components/contacts';
+@import './components/footer';
+
+// Modals
+
+// Olexandr part 💻
+@import './modals/modal-base';
+@import './modals/modal-buynow';
+@import './modals/modal-franchise';
+@import './modals/modal-ingredients';
+@import './modals/modal-locations';
+@import './modals/modal-readmore';

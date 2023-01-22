@@ -1,0 +1,164 @@
+<section class="hero">
+    <div class="container container-hero">
+        <div class="hero__main">
+            <div class="hero__main-container">
+                <h1 class="hero__title">
+                    ice cream made with
+                    <span class="hero__title--uppercase">passion</span>
+                </h1>
+                <ul class="hero-list">
+                    <li class="hero-list__item">
+                        <a class="button-products" href="#products">Products</a>
+                    </li>
+                    <li>
+                        <a class="button-made" href="#how-made"
+                            >How it’s made?</a
+                        >
+                    </li>
+                </ul>
+            </div>
+
+            <ul class="hero-franchise__list">
+                <li>
+                    <p class="hero-franchise__unit">16</p>
+                    <p class="hero-franchise__type">cafes</p>
+                </li>
+                <li>
+                    <p class="hero-franchise__unit">23</p>
+                    <p class="hero-franchise__type">food trucks</p>
+                </li>
+            </ul>
+
+            <!-- Dots picture -->
+            <picture>
+                <source
+                    srcset="
+                        ./images/hero/desktop-dots/desktop-dots@1x.png 1x,
+                        ./images/hero/desktop-dots/desktop-dots@2x.png 2x
+                    "
+                    media="(min-width: 1200px)"
+                />
+                <source
+                    srcset="
+                        ./images/hero/tablet-dots/tablet-dots@1x.png 1x,
+                        ./images/hero/tablet-dots/tablet-dots@2x.png 2x
+                    "
+                    media="(min-width: 768px)"
+                />
+                <source
+                    srcset="
+                        ./images/hero/mobile-dots/mobile-dots@1x.png 1x,
+                        ./images/hero/mobile-dots/mobile-dots@2x.png 2x
+                    "
+                    media="(max-width: 767px)"
+                />
+                <img
+                    class="hero__image hero__image--dots animate__animated animate__zoomIn animate__slower"
+                    src="./images/hero/mobile-dots/mobile-dots@1x.png"
+                    alt="Dots"
+                />
+            </picture>
+
+            <!-- Ice-cream glow pic and ice-cream pic -->
+            <div class="image-wrapper">
+                <div class="glow-wrapper">
+                    <picture>
+                        <source
+                            srcset="
+                                ./images/hero/ice-cream-desktop/ice-cream-dt-glow@1x.png 1x,
+                                ./images/hero/ice-cream-desktop/ice-cream-dt-glow@2x.png 2x
+                            "
+                            media="(min-width: 1200px)"
+                        />
+                        <source
+                            srcset="
+                                ./images/hero/ice-cream-tablet/ice-cream-tb-glow@1x.png 1x,
+                                ./images/hero/ice-cream-tablet/ice-cream-tb-glow@2x.png 2x
+                            "
+                            media="(min-width: 768px)"
+                        />
+                        <source
+                            srcset="
+                                ./images/hero/ice-cream-mobile/ice-cream-mb-glow@1x.png 1x,
+                                ./images/hero/ice-cream-mobile/ice-cream-mb-glow@2x.png 2x
+                            "
+                            media="(max-width: 767px)"
+                        />
+                        <img
+                            class="hero__image"
+                            src="./images/hero/ice-cream-mobile/ice-cream-mb-glow@1x.png"
+                            alt="Glow"
+                        />
+                    </picture>
+                </div>
+
+                <picture>
+                    <source
+                        srcset="
+                            ./images/hero/ice-cream-desktop/ice-cream-dt@1x.png 1x,
+                            ./images/hero/ice-cream-desktop/ice-cream-dt@2x.png 2x
+                        "
+                        media="(min-width: 1200px)"
+                    />
+                    <source
+                        srcset="
+                            ./images/hero/ice-cream-tablet/ice-cream-tb@1x.png 1x,
+                            ./images/hero/ice-cream-tablet/ice-cream-tb@2x.png 2x
+                        "
+                        media="(min-width: 768px)"
+                    />
+                    <source
+                        srcset="
+                            ./images/hero/ice-cream-mobile/ice-cream-mb@1x.png 1x,
+                            ./images/hero/ice-cream-mobile/ice-cream-mb@2x.png 2x
+                        "
+                        media="(max-width: 767px)"
+                    />
+                    <img
+                        class="hero__image"
+                        src="./images/hero/ice-cream-mobile/ice-cream-mb@1x.png"
+                        alt="Ice cream"
+                    />
+                </picture>
+            </div>
+        </div>
+
+        <div class="hero-details">
+            <p class="hero-details__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et
+            </p>
+
+            <details>
+                <summary>
+                    <svg class="hero-details__icon" width="40" height="15">
+                        <use href="./images/icons.svg#white-arrow"></use>
+                    </svg>
+                </summary>
+                <p class="hero-details__inner">Repeta Awards 2022 Winner 🏆</p>
+            </details>
+        </div>
+        <!-- Icecream pic-->
+        <picture>
+            <source
+                srcset="
+                    ./images/hero/plate-ice-cream-desktop/plate-ice-cream-dt@1x.png 1x,
+                    ./images/hero/plate-ice-cream-desktop/plate-ice-cream-dt@2x.png 2x
+                "
+                media="(min-width: 1200px)"
+            />
+            <source
+                srcset="
+                    ./images/hero/plate-ice-cream-tablet/plate-ice-cream-tb@1x.png 1x,
+                    ./images/hero/plate-ice-cream-tablet/plate-ice-cream-tb@2x.png 2x
+                "
+                media="(min-width: 768px)"
+            />
+            <img
+                class="hero__image hero__image--plate"
+                src="./images/hero/plate-ice-cream-tablet/plate-ice-cream-tb@1x.png"
+                alt="Ice cream plate"
+            />
+        </picture>
+    </div>
+</section>
